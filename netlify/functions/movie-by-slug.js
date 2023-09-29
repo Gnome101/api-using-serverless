@@ -14,6 +14,8 @@ exports.handler = async (event, context) => {
     upperTick: siteReturns.uT, //3
     upperMultiplier: siteReturns.uM, //3
   };
+  ///?uA=1000000000000000000&pA=0xa74cd5e13431FF7969F5b8770fC121768b14607e&gL=5.0&pN=9&cT=0.005&uR=0x3AE176C4603C064332A2dcD4AB6323Ed7a722692&lT=0&lM=10&uT=10&uM=10/
+  let response = "Nothing Yet";
   try {
     if (responseInfo) {
       const response = await crptoCall.main(responseInfo);
@@ -21,6 +23,6 @@ exports.handler = async (event, context) => {
   } catch (e) {}
   return {
     statusCode: 200,
-    body: JSON.stringify(response),
+    body: JSON.stringify({ Data: response }),
   };
 };
