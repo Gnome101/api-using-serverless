@@ -1,0 +1,9 @@
+{
+    "arbGoerli": {
+        "V3RouteManager": "0x3AE176C4603C064332A2dcD4AB6323Ed7a722692",
+        "Diamond": "0xe55b32afB94133381655357108dC972Da4aF9e98",
+        "PoolFactory": "0x4893376342d5D7b3e31d4184c08b265e5aB2A3f6",
+        "Pool": "0xa74cd5e13431FF7969F5b8770fC121768b14607e",
+        "NFTManager": "0x622e4726a167799826d1E1D150b076A7725f5D81"
+    }
+}
