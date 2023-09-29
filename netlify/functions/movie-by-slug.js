@@ -1,10 +1,10 @@
 const movies = require("./data.json");
 
 exports.handler = async (event, context) => {
-  const slug = event;
+  const siteReturns = event.queryStringParameters;
 
   return {
     statusCode: 200,
-    body: JSON.stringify({ info: slug }),
+    body: JSON.stringify({ info: siteReturns, FirstValue: siteReturns.A }),
   };
 };
