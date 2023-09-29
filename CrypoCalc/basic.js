@@ -27,7 +27,6 @@ const {
 } = require("./utils/ImportantTool.js");
 require("dotenv").config();
 const viemTools = require("./utils/viemTools.ts");
-const req = require("express/lib/request");
 async function main(responseInfo) {
   const account = privateKeyToAccount(process.env.PRIVATE_KEY);
   const poolAdy = responseInfo.poolAddress;

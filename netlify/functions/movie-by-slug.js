@@ -1,4 +1,4 @@
-const crptoCall = require("../../CrypoCalc/basic");
+const crptoCall = require("../../CrypoCalc/basic.js");
 
 exports.handler = async (event, context) => {
   const siteReturns = event.queryStringParameters;
